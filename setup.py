@@ -70,7 +70,7 @@ setup(
     license='MID',
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
-    scripts=['pyquick/bin/pyquick'],
+    scripts=['pyquick/bin/pyquick.py'],
     entry_points={'console_scripts': [
         'pyquick = pyquick.bin.pyquick',
     ]},
