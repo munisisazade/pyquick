@@ -71,6 +71,9 @@ setup(
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
     scripts=['pyquick/bin/pyquick'],
+    entry_points={'console_scripts': [
+        'pyquick = pyquick.bin.pyquick',
+    ]},
     install_requires=['peewee', 'japronto'],
     zip_safe=False,
     classifiers=[
